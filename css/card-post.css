@@ -1,0 +1,224 @@
+/* CARDS DOS POSTS */
+.main{
+  width: 940px;
+  height: 700px;
+
+  display: block;
+  margin: 180px auto;
+  padding: 10px;
+
+  background-color: #d9d9d9;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+
+  z-index: 3;
+}
+/*TAGS*/
+.grid-superior{
+  position: absolute;
+  top: -20px;
+
+  display: inline-block;
+}
+.tag-superior{
+  min-width: 110px;
+  display: inline-block;
+
+  padding: 4px;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+
+  margin-left: -70px;
+  transition: all .4s;
+}
+.tag-superior:hover{
+  margin-right: 70px;
+  background-color: #f2f2f2;
+}
+.tag-superior i{
+  color: #4d4d4d;
+}
+#first-tag{
+  margin-left: 0;
+}
+/*DESCRIÇÃO*/
+.horizontal-line{
+  width: 650px;
+
+  float: right;
+
+  margin-right: 10px;
+  outline: solid 1px grey;
+}
+.description{
+  width: 650px;
+  height: 180px;
+
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+
+  background-color: #cccccc;
+  border-radius: 10px;
+  padding: 6px;
+}
+.description p{
+  margin: 0;
+
+  font-size: 15px;
+  font-style: italic;
+  color: #4f4f4f;
+  cursor: context-menu;
+}
+/*NOME*/
+.name{
+  margin-left: 8px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*COMENTÁRIOS*/
+.comment-highlight{
+  width: 650px;
+  height: 45px;
+
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+
+  border: solid 2px grey;
+  border-radius: 5px;
+  background-color: #cccccc;
+  padding: 4px;
+  cursor: pointer;
+}
+.comment-highlight:hover{
+  background-color: #d9d9d9;
+}
+.comment-highlight i{
+  color: #666666;
+  font-size: 25px;
+  margin: 5px 310px;
+}
+/*PERFIL*/
+.profile{
+  width: 70px;
+  height: 70px;
+
+  cursor: pointer;
+  border-radius: 500px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+/*SEGUIR*/
+.follow{
+  position: absolute;
+  left: 100px;
+  margin: 20px;
+
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 6px;
+  padding: 4px;
+}
+.follow i{
+  font-size: 11px;
+  color: grey;
+}
+.follow p{
+  margin: 0;
+  display: inline-block;
+  font-size: 13px;
+  color: grey;
+}
+/*QUOTE*/
+.quote{
+  position: absolute;
+
+  font-style: italic;
+  text-align: justify;
+
+  bottom: 135px;
+  left: 20px;
+
+  width: 200px;
+  max-height: 100px;
+}
+.quote i{
+  color: grey;
+  font-size: 12px;
+}
+.quote p{
+  white-space: normal;
+  word-wrap: break-word;
+  margin: 4px;
+  font-size: 11px;
+  color: #4f4f4f;
+  cursor: context-menu;
+}
+/*OCUPAÇÃO*/
+.job{
+  position: absolute;
+
+  font-style: italic;
+  text-align: justify;
+
+  bottom: 60px;
+  left: 20px;
+
+  width: 200px;
+  max-height: 100px;
+}
+.job i{
+  color: grey;
+  font-size: 13px;
+}
+.job p{
+  word-wrap: break-word;
+  margin: 4px;
+  font-size: 11px;
+  color: #4f4f4f;
+  cursor: context-menu;
+}
+/*DATA PUBLICAÇÃO*/
+.publish{
+  position: absolute;
+
+  bottom: 0;
+  margin: 10px;
+
+  font-size: 10px;
+  font-style: italic;
+  color: grey;
+}
+/*ÍCONES DA DIREITA*/
+.icons-right{
+  display: block;
+  position: absolute;
+  right: 0;
+  margin: 260px -50px;
+}
+.icons-right i{
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+/*SELO*/
+.selo{
+  opacity: 0.1;
+  width: 175px;
+  height: 175px;
+
+  top: 475px;
+  position: absolute;
+  left: 50px;
+
+  -webkit-transform: rotate(30deg);
+}

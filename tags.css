@@ -1,0 +1,103 @@
+body{
+  overflow-y: hidden;
+}
+input{
+  border-color: transparent;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px black;
+
+  width: 10%;
+  transition: all .5s;
+}
+input:focus{
+  width: 25%;
+  outline-style: none;
+  box-shadow: 0px 1px 4px #66b3ff;
+}
+
+
+
+/*TODAS AS TAGS CENTRAIS*/
+.tags{
+  cursor: pointer;
+  border-radius: 40px;
+  background-color: #cccccc;
+  transition: all .2s;
+  
+  color: #4d4d4d;
+
+  padding: 5px;
+}
+.tags:hover{
+  background-color:  #66b3ff;
+}
+.tags i{
+  font-size: 60px;
+  opacity: 0.5;
+  transition: all .2s;
+}
+.tags:hover > i{
+  opacity: 0.8;
+  font-size: 70px;
+}
+.tags p{
+  font-size: 25px;
+  font-style: italic;
+  color: #4d4d4d;
+  opacity: 0.7;
+
+  float: right;
+  padding: 20px;
+  transition: all .2s;
+}
+.tags:hover > p{
+  opacity: 1;
+  font-size: 30px;
+}
+
+.tag1{
+  grid-area: tag1;
+}
+.tag2{
+  grid-area: tag2;
+}
+.tag3{
+  grid-area: tag3;
+}
+.tag4{
+  grid-area: tag4;
+}
+.tag5{
+  grid-area: tag5;
+}
+.tag6{
+  grid-area: tag6;
+}
+.tag7{
+  grid-area: tag7;
+}
+.tag8{
+  grid-area: tag8;
+}
+.tag9{
+  grid-area: tag9;
+}
+.tag10{
+  grid-area: tag10;
+}
+
+.conteiner{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 20vh repeat(6, 10vh); /* só adc mais 1 unidade no 1° p/ + 1 linha */
+  grid-template-areas:
+    ".    .       .       .       ."
+    ".    tag1    tag1    tag2    ."
+    ".    tag3    tag4    tag2    ."
+    ".    tag3    tag4    tag5    ."
+    ".    tag6    tag7    tag8    ."
+    ".    tag9    tag9    tag10   ."
+    ".    .       .       .       .";
+
+  grid-gap: 20px;
+}

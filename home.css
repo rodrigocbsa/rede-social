@@ -1,0 +1,116 @@
+/*CORES*/
+.card{
+  width: 30px;
+
+  right: 0;
+  position: fixed;
+  top: 300px;
+
+  margin-right: -15px;
+
+  z-index: 4;
+  transition: all .5s;
+}
+.card:hover{
+  margin-right: 10px;
+  opacity: 1;
+  transition: all .5s;
+}
+.cardLabel{
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+  width: auto;
+  padding: 10px;
+  margin: -10px;
+
+  display: flex;
+  align-items: center;
+  transition: all .5s;
+}
+.cardLabel:hover{
+  padding-bottom: 25px;
+  transition: all .5s;
+}
+
+
+
+/*PUBLICAR*/
+.overlay{
+  top: 0;
+  right: 0;
+  position: fixed;
+
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgba(0,0,0,0.8);
+
+  z-index: 5;
+}
+.overlay-main{
+  margin: 100px auto;
+  display: block;
+
+  width: 1280px;
+  height: 700px;
+
+  background-color: #b3b3b3;
+  box-shadow: 1px 1px 6px black;
+  border-radius: 6px;
+  padding: 4px;
+}
+#close{
+  float: right;
+  margin: 5px;
+
+  cursor: pointer;
+  font-size: 30px;
+  color: #999999;
+  transition: all .3s;
+}
+#close:hover{
+  color: #f2f2f2;
+}
+.overlay-descricao{
+
+}
+.overlay-imagem{
+
+}
+.btn-publicar{
+  
+}
+
+
+
+/* TEXTOS INICIAL & FINAL*/
+.start{
+  display: block;
+  margin: 0 auto;
+
+  text-align: center;
+}
+.start h1{
+  margin-top: 350px;
+  color: #4d4d4d;
+}
+.start p{
+  color: #1a1a1a;
+}
+.end{
+  display: block;
+  margin: 100px auto;
+
+  text-align: center;
+}
+.end h1{
+  margin-top: 30px;
+  color: #4d4d4d;
+}
+.end i{
+  font-size: 85px;
+  color: #4d4d4d;
+  margin-top: 150px;
+}

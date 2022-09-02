@@ -1,0 +1,13 @@
+html{
+  scroll-behavior: smooth;
+}
+body{ /*Se a tela for menor que 1100px, indicar para celular*/
+  padding: 0;
+  margin: 0;
+
+  background-color: #d9d9d9;
+  font-family: 'Open Sans', sans-serif, Courier New, Lucida Console, Arial, Verdana;
+}
+*{
+  box-sizing: border-box;
+}

@@ -1,0 +1,131 @@
+/* LAYOUT DO PERFIL */
+.conteiner{
+  margin: 0 auto;
+  display: block;
+
+  width: 1200px;
+  height: 90vh;
+  position: static;
+
+  background-color: lightgrey;
+  padding: 100px;
+  border-radius: 10px;
+}
+.banner{
+  width: 1000px;
+  height: 35vh;
+
+  margin: 0 auto;
+  display: block;
+
+  background-color: grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profile-img{
+  width: 220px;
+  height: 220px;
+
+  margin-top: 20px;
+  position: absolute;
+
+  background-color: grey;
+  border-radius: 200px;
+  cursor: pointer;
+}
+/*INFORMAÇÕES*/
+.informations{
+  white-space: normal;
+  word-wrap: break-word; /*EU TE animation-fill-mode: ...amo KJKJKJKJKJ*/
+
+  width: 750px;
+  height: 200px;
+
+  margin-top: 25px;
+  float: right;
+
+  border-radius: 5px;
+  padding: 10px;
+  cursor: default;
+}
+/*NOME E APELIDO*/
+.user{
+  width: 550px;
+  position: absolute;
+
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400px;
+  letter-spacing: 1px;
+}
+.nickname{
+  width: 140px;
+  float: right;
+  padding-top: 14px;
+
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300px;
+  letter-spacing: 1px;
+}
+/*LOCALIZAÇÃO*/
+.location{
+  margin-top: 52px;
+
+  font-style: italic;
+  font-size: 14px;
+}
+/*QUOTE*/
+.myQuote{
+  font-style: italic;
+  text-align: justify;
+
+  position: absolute;
+  margin-top: 15px;
+  width: 200px;
+}
+/*OCUPAÇÃO*/
+.ocupation{
+  position: absolute;
+  margin-left: 240px;
+  width: 200px;
+  margin-top: 15px;
+}
+
+/*INFORMAÇÕES*/
+.overlay{
+  top: 0;
+  right: 0;
+  position: fixed;
+
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgba(0,0,0,0.8);
+
+  z-index: 5;
+}
+.overlay-main{
+  margin: 100px auto;
+  display: block;
+
+  width: 1280px;
+  height: 700px;
+
+  background-color: #b3b3b3;
+  box-shadow: 1px 1px 6px black;
+  border-radius: 6px;
+  padding: 4px;
+}
+#close{
+  float: right;
+  margin: 5px;
+
+  cursor: pointer;
+  font-size: 30px;
+  color: #999999;
+  transition: all .3s;
+}
+#close:hover{
+  color: #f2f2f2;
+}

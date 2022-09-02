@@ -1,0 +1,231 @@
+/* CARDS DOS POSTS */
+.main-ad{
+  width: 940px;
+  height: 700px;
+
+  display: block;
+  margin: 180px auto;
+  padding: 10px;
+
+  background-color: #ffd966;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+
+  z-index: 3;
+}
+/*TAGS*/
+.grid-superior{
+  position: absolute;
+  top: -20px;
+
+  display: inline-block;
+}
+.tag-superior{
+  min-width: 110px;
+  display: inline-block;
+
+  padding: 4px;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+
+  margin-left: -70px;
+  transition: all .4s;
+}
+.tag-superior:hover{
+  margin-right: 70px;
+  background-color: #f2f2f2;
+}
+.tag-superior i{
+  color: #4d4d4d;
+}
+#first-tag{
+  margin-left: 0;
+}
+#ad{
+  background-color: #ffd966;
+  transition: all .4s;
+}
+#ad:hover{
+  background-color: #ffd11a;
+}
+/*DESCRIÇÃO*/
+.horizontal-line-ad{
+  width: 650px;
+
+  float: right;
+
+  margin-right: 10px;
+  outline: solid 1px #cca300;
+}
+.description-ad{
+  width: 650px;
+  height: 180px;
+
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+
+  background-color: #ffd11a;
+  border-radius: 10px;
+  padding: 6px;
+}
+.description-ad p{
+  margin: 0;
+
+  font-size: 15px;
+  font-style: italic;
+  color: #666666;
+  cursor: context-menu;
+}
+/*NOME*/
+.name{
+  margin-left: 8px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*COMENTÁRIOS*/
+.comment-highlight-ad{
+  width: 650px;
+  height: 45px;
+
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+
+  border: solid 2px #cca300;
+  border-radius: 5px;
+  background-color: #ffd11a;
+  padding: 4px;
+  cursor: pointer;
+}
+.comment-highlight-ad:hover{
+  background-color: #ffd966;
+}
+.comment-highlight-ad i{
+  color: #997a00;
+  font-size: 25px;
+  margin: 5px 310px;
+}
+/*PERFIL*/
+.profile{
+  width: 70px;
+  height: 70px;
+
+  cursor: pointer;
+  border-radius: 500px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+/*SEGUIR*/
+.follow-ad{
+  position: absolute;
+  left: 100px;
+  margin: 20px;
+
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #997a00;
+  border-radius: 6px;
+  padding: 4px;
+}
+.follow-ad i{
+  font-size: 11px;
+  color: #997a00;
+}
+.follow-ad p{
+  margin: 0;
+  display: inline-block;
+  font-size: 13px;
+  color: #997a00;
+}
+/*QUOTE*/
+.quote-ad{
+  position: absolute;
+
+  font-style: italic;
+  text-align: justify;
+
+  bottom: 135px;
+  left: 20px;
+
+  width: 200px;
+  max-height: 100px;
+}
+.quote-ad i{
+  color: #997a00;
+  font-size: 12px;
+}
+.quote-ad p{
+  white-space: normal;
+  word-wrap: break-word;
+  margin: 4px;
+  font-size: 11px;
+  color: #666666;
+  cursor: context-menu;
+}
+/*OCUPAÇÃO*/
+.job-ad{
+  position: absolute;
+
+  font-style: italic;
+  text-align: justify;
+
+  bottom: 60px;
+  left: 20px;
+
+  width: 200px;
+  max-height: 100px;
+}
+.job-ad i{
+  color: #997a00;
+  font-size: 13px;
+}
+.job-ad p{
+  word-wrap: break-word;
+  margin: 4px;
+  font-size: 11px;
+  color: #666666;
+  cursor: context-menu;
+}
+/*DATA PUBLICAÇÃO*/
+.publish-ad{
+  position: absolute;
+
+  bottom: 0;
+  margin: 10px;
+
+  font-size: 10px;
+  font-style: italic;
+  color: #666666;
+}
+/*ÍCONES DA DIREITA*/
+.icons-right{
+  display: block;
+  position: absolute;
+  right: 0;
+  margin: 260px -50px;
+}
+.icons-right i{
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+/*SELO*/
+.selo{
+  opacity: 0.1;
+  width: 175px;
+  height: 175px;
+
+  top: 475px;
+  position: absolute;
+  left: 50px;
+
+  -webkit-transform: rotate(30deg);
+}
